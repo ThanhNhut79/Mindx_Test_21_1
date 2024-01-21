@@ -1,0 +1,49 @@
+.quote h3 {
+  border-left: 5px solid yellow;
+  padding: 30px;
+  font-size: 25px;
+}
+.button-random {
+  position: absolute;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+}
+.app {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.content {
+  width: 50%;
+  margin: 0 auto;
+}
+.author-tags {
+  padding: 20px 10px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.author-tags:hover {
+  background-color: black;
+  color: white;
+}
+.author-top span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.author-top p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.button-random:hover {
+  background-color: rgb(88, 205, 226);
+}
+.icon-button {
+  margin-left: 10px;
+}
